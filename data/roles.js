@@ -1,0 +1,98 @@
+export const roles = [
+  {
+    id: "R001",
+    name: "Project Manager",
+    employeeCount: 8,
+    scores: {
+      experience: { average: 8, highest: 10 },
+      technical: { average: 7, highest: 9 },
+      leadership: { average: 9, highest: 10 },
+      projects: { average: 8, highest: 10 },
+      communication: { average: 8, highest: 9 },
+    },
+  },
+  {
+    id: "R002",
+    name: "Senior Engineer",
+    employeeCount: 15,
+    scores: {
+      experience: { average: 7, highest: 9 },
+      technical: { average: 8, highest: 10 },
+      leadership: { average: 6, highest: 8 },
+      projects: { average: 7, highest: 9 },
+      communication: { average: 7, highest: 8 },
+    },
+  },
+  {
+    id: "R003",
+    name: "Team Lead",
+    employeeCount: 5,
+    scores: {
+      experience: { average: 8, highest: 10 },
+      technical: { average: 7, highest: 9 },
+      leadership: { average: 9, highest: 10 },
+      projects: { average: 8, highest: 9 },
+      communication: { average: 8, highest: 9 },
+    },
+  },
+  {
+    id: "R004",
+    name: "Engineer",
+    employeeCount: 20,
+    scores: {
+      experience: { average: 6, highest: 8 },
+      technical: { average: 7, highest: 9 },
+      leadership: { average: 5, highest: 7 },
+      projects: { average: 6, highest: 8 },
+      communication: { average: 6, highest: 7 },
+    },
+  },
+  {
+    id: "R005",
+    name: "Research Analyst",
+    employeeCount: 10,
+    scores: {
+      experience: { average: 7, highest: 9 },
+      technical: { average: 8, highest: 10 },
+      leadership: { average: 6, highest: 7 },
+      projects: { average: 7, highest: 8 },
+      communication: { average: 7, highest: 8 },
+    },
+  },
+  {
+    id: "R006",
+    name: "Operations Manager",
+    employeeCount: 6,
+    scores: {
+      experience: { average: 9, highest: 10 },
+      technical: { average: 6, highest: 8 },
+      leadership: { average: 9, highest: 10 },
+      projects: { average: 8, highest: 9 },
+      communication: { average: 8, highest: 9 },
+    },
+  },
+  {
+    id: "R007",
+    name: "Technical Specialist",
+    employeeCount: 7,
+    scores: {
+      experience: { average: 8, highest: 10 },
+      technical: { average: 9, highest: 10 },
+      leadership: { average: 6, highest: 8 },
+      projects: { average: 8, highest: 9 },
+      communication: { average: 7, highest: 8 },
+    },
+  },
+  {
+    id: "R008",
+    name: "Intern",
+    employeeCount: 12,
+    scores: {
+      experience: { average: 3, highest: 5 },
+      technical: { average: 4, highest: 6 },
+      leadership: { average: 3, highest: 5 },
+      projects: { average: 4, highest: 6 },
+      communication: { average: 4, highest: 5 },
+    },
+  },
+];
