@@ -1,15 +1,18 @@
+"use client";
 import { dashboardStats } from "../data/dashboardStats";
 import Card from "../components/Card";
+import { useEffect } from "react";
+import { Router } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Dashboard() {
+  const router = useRouter();
+  useEffect(() => {
+    router.push("/dashboard");
+  });
   return (
-    <div>
-      <h1 className="text-2xl font-semibold mb-4">Dashboard Overview</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {dashboardStats.map((stat, idx) => (
-          <Card key={idx} title={stat.title} value={stat.value} icon={stat.icon} />
-        ))}
-      </div>
+    <div className="flex justify-center items-center h-screen">
+      <h1 className="font-extrabold">Loading</h1>
     </div>
   );
 }
